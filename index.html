@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ekart</title>
+</head>
+
+<style>
+body{
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "h e m f l"
+    "s c c c c"
+    "s c c c c"
+    "s c c c c"
+    "s c c c c"
+    "s c c c c"
+    "s c c c c"
+    "s c c c c"
+    "s c c c c";
+}
+
+.home{
+    text-align: center;
+    font-size: 3em;
+   background-color: yellow;
+   grid-area: h;
+}
+
+.electronics{
+    text-align: center;
+    font-size: 3em;
+    background-color: yellow;
+    grid-area: e;
+}
+.mobile{
+    text-align: center;
+    font-size: 3em;
+    background-color: yellow;
+    grid-area: m;
+}
+.fasion{
+    text-align: center;
+    font-size: 3em;
+    background-color: yellow;
+    grid-area: f;
+}
+
+.log{
+    text-align: center;
+    font-size: 3em;
+    background-color: yellow;
+    grid-area: l;
+}
+.sidebar{
+
+    grid-area: s;
+    background-color: aqua;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 200px;
+    height: auto;
+    font-size: 3em;
+    text-align: center;
+}
+.sc{
+    font-size: 1em;
+    text-align: center;
+    height:200px;
+
+}
+.content{
+    display: grid;
+    grid-area: c;
+    background-color: blue;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.o{
+    border: 4em salmon;
+    text-align: center;
+    font-size: 3em;
+    background-color: cadetblue;
+    height: 150px;
+    width: 150px;
+}
+
+</style>
+<body>
+    
+        <div class="home"> HOME</div>
+        <div class="electronics">electronics</div>
+        <div class="mobile">mobile</div>
+        <div class="fasion">Fashion</div>
+        <div class="log">login</div>
+        
+    
+
+    <div class="sidebar">
+
+        <div class="sc">filter</div>
+        <div class="sc"> recomended</div>
+        <div class="sc"> chart </div>
+        <div class="sc"> LOGOUT</div>
+
+
+    </div>
+    <div class="content">
+
+        <div class="o"> D</div>
+        <div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div>
+
+    </div>
+
+    <div class="footer"></div>
+</body>
+</html>
