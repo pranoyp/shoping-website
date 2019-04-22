@@ -9,7 +9,7 @@
 
 <style>
 body{
-
+margin: 0px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
@@ -22,7 +22,8 @@ body{
     "s c c c c"
     "s c c c c"
     "s c c c c"
-    "s c c c c";
+    "s c c c c"
+    "footer footer footer footer footer";
 }
 
 .home{
@@ -85,8 +86,18 @@ body{
     text-align: center;
     font-size: 3em;
     background-color: cadetblue;
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 250px;
+}
+.footer{
+    grid-area: footer;
+    background-color: black;
+    height:140px;
+}
+.o{
+    background-image: url(https://www.91-img.com/pictures/131238-v4-realme-3-mobile-phone-large-1.jpg);
+    z-index: 2;
+    image-orientation: 0grad;
 }
 
 </style>
@@ -111,11 +122,11 @@ body{
     </div>
     <div class="content">
 
-        <div class="o"> D</div>
+        <div class="o"><div class="ph"> </div><h6>14000</h6> </div>
         <div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div><div class="o"> D</div>
 
     </div>
 
-    <div class="footer"></div>
+    <div class="footer">FOOTER</div>
 </body>
 </html>
